@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secure-file-locker"
+version = "0.1.0"
+description = "Safe-by-default file locker with backups, manifests, and canary mode."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "cryptography==42.0.8",
+]
